@@ -8,19 +8,25 @@ public class Animal {
     boolean hungry;
     boolean vertebrate;
     boolean warmblooded;
+    boolean milk;
     boolean furred;
+    boolean scales;
+    boolean eggs;
 
-
-    abstract eat(){
+    abstract eat()
+    {
         return String;
     }
-    abstract move(){
+    abstract move()
+    {
         return String;
     }
-    abstract poop(){
+    abstract poop()
+    {
         return String;
     }
-    abstract breathe(){
+    abstract breathe()
+    {
         return String;
     }
 }
