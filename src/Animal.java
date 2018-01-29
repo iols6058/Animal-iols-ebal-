@@ -2,16 +2,16 @@
  * Created by iols6058 on 1/29/2018.
  */
 public class Animal {
-    String species;
-    boolean living;
-    boolean awake;
-    boolean hungry;
-    boolean vertebrate;
-    boolean warmblooded;
-    boolean milk;
-    boolean furred;
-    boolean scales;
-    boolean eggs;
+    private String species;
+    private boolean living;
+    private boolean awake;
+    private boolean hungry;
+    private boolean vertebrate;
+    private boolean warmblooded;
+    private boolean milk;
+    private boolean furred;
+    private boolean scales;
+    private boolean eggs;
 
     abstract eat()
     {
