@@ -12,7 +12,7 @@ public class Animal {
     boolean furred;
     boolean scales;
     boolean eggs;
-
+    
     abstract eat()
     {
         return String;
