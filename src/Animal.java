@@ -13,6 +13,9 @@ public class Animal {
     boolean scales;
     boolean eggs;
 
+    String getAnimal(String animal) {
+        help me
+    }
     abstract eat()
     {
         return String;
