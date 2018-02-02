@@ -5,7 +5,7 @@
 /**
  * A parent class for an Animal hierarchy
  */
-public abstract class Animal
+abstract class Animal
 {
     private String species;
     private boolean living;
@@ -125,7 +125,7 @@ public abstract class Animal
 
     /**
      * How the animal breathes
-     * @return how the animal breahes
+     * @return how the animal breathes
      */
-    public abstract String breath();
+    public abstract String breathe();
 }
