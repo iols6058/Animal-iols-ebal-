@@ -6,20 +6,23 @@ class Reptile extends Animal {
         super(species, living, awake, hungry);
     }
     @Override
-    public String breathe(){
-        return "Lungs";
+    public String breathe(String method) {
+        return method;
     }
-    public String eat(){
-        return "Mainly other animals";
+    @Override
+    public String eat(String method) {
+        return method;
     }
-    public String poop(){
-        return "Yeah";
+    @Override
+    public String move(String method) {
+        return method;
     }
-    public String move(){
-        return "Crawls";
+    @Override
+    public String poop(String density) {
+        return density;
     }
     public void lizard(){
-        Reptile lizard = new Reptile();
+        Reptile lizard = new Reptile("lizard", true, true, true);
         lizard.setSpecies("Lizard");
         lizard.setVertebrate(true);
         lizard.setFurred(false);
