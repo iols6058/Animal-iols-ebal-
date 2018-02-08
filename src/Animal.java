@@ -1,4 +1,4 @@
-/**
+/**ok
  * Created by ebal8006 on 1/31/2018.
  */
 
@@ -109,23 +109,23 @@ abstract class Animal
      * How/What the animal eats
      * @return what the animal eats
      */
-    public abstract String eat();
+    public abstract String eat(String method);
 
     /**
      * How the animla moves
      * @return how the animal moves
      */
-    public abstract String move();
+    public abstract String move(String method);
 
     /**
      * How the animal poops
      * @return how the animal poops
      */
-    public abstract String poop();
+    public abstract String poop(String density);
 
     /**
      * How the animal breathes
      * @return how the animal breathes
      */
-    public abstract String breathe();
+    public abstract String breathe(String method);
 }
