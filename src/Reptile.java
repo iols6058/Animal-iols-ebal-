@@ -34,5 +34,12 @@ class Reptile extends Animal {
         lizard.eat("Insects");
         lizard.poop("WHY");
         lizard.move("4 Legs Crawl");
+        System.out.println("Species: " + lizard.getSpecies());
+        System.out.println("Vertebrate: " + lizard.isVertebrate());
+        System.out.println("Scales: " + lizard.isScales());
+        System.out.println("Milk: " + lizard.isMilk());
+        System.out.println("Eggs: " + lizard.isEggs());
+        System.out.println("Warm blooded: " + lizard.isWarmblooded());
+        System.out.println("Furred: " + lizard.isFurred());
     }
 }
