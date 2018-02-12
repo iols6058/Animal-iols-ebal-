@@ -30,9 +30,9 @@ class Reptile extends Animal {
         lizard.setEggs(true);
         lizard.setMilk(false);
         lizard.setWarmblooded(true);
-        lizard.breathe();
-        lizard.eat();
-        lizard.poop();
-        lizard.move();
+        lizard.breathe("Lungs");
+        lizard.eat("Insects");
+        lizard.poop("WHY");
+        lizard.move("4 Legs Crawl");
     }
 }
