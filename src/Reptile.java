@@ -42,4 +42,22 @@ class Reptile extends Animal {
         System.out.println("Warm blooded: " + lizard.isWarmblooded());
         System.out.println("Furred: " + lizard.isFurred());
     }
+    public void snake(){
+        Reptile snake = new Reptile("Snake", true, true, true);
+        snake.setSpecies("Snake");
+        snake.setVertebrate(true);
+        snake.setFurred(false);
+        snake.setScales(true);
+        snake.setEggs(true);
+        snake.setMilk(true);
+        snake.setWarmblooded(true);
+        snake.breathe("Lungs");
+        snake.eat("Rodents");
+        snake.poop("PLACEHOLDER");
+        snake.move("Slither");
+        System.out.println("Species: " + snake.getSpecies());
+        System.out.println("Vertebrate: " + snake.isVertebrate());
+        System.out.println("Scales: " + snake.isScales());
+        System.out.println("Milk: " + snake.isMilk());
+    }
 }

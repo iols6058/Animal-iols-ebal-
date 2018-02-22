@@ -36,4 +36,19 @@ public void kangaroo() {
     kangaroo.move("Hops");
     kangaroo.poop("Scat");
     }
+    public void bear(){
+        Mammal bear = new Mammal("Bear", true, true, true,);
+        bear.setSpecies("Bear");
+        bear.setWarmblooded(true);
+        bear.setVertebrate(true);
+        bear.setFurred(true);
+        bear.setAwake(true);
+        bear.setHungry(true);
+        bear.setEggs(false);
+        bear.setMilk(true);
+        bear.breathe("Lungs");
+        bear.eat("Berries");
+        bear.move("Walks on all fours");
+        bear.poop("Small balls");
+    }
 }
