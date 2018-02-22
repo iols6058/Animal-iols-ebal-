@@ -37,7 +37,7 @@ public void kangaroo() {
     kangaroo.poop("Scat");
     }
     public void bear(){
-        Mammal bear = new Mammal("Bear", true, true, true,);
+        Mammal bear = new Mammal("Bear", true, true, true);
         bear.setSpecies("Bear");
         bear.setWarmblooded(true);
         bear.setVertebrate(true);
