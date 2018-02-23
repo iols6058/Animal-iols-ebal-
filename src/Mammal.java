@@ -11,7 +11,6 @@ class Mammal extends Animal {
         this.setLiving(true);
         this.setMilk(true);
         this.setScales(false);
-
     }
     @Override
     public String breathe(String method) {
@@ -50,7 +49,4 @@ class Kangaroo extends Mammal {
         this.poop("scat");
         this.eat("plants");
     }
-
-
-
 }

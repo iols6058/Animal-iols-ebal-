@@ -2,8 +2,16 @@
  * Created by ebal8006 on 1/31/2018.
  */
 class Reptile extends Animal {
+    
     public Reptile(String species, boolean living, boolean awake, boolean hungry){
         super(species, living, awake, hungry);
+        this.setAwake(true);
+        this.setEggs(true);
+        this.setFurred(false);
+        this.setHungry(false);
+        this.setLiving(true);
+        this.setMilk(false);
+        this.setScales(true);
     }
     @Override
     public String breathe(String method) {
@@ -59,5 +67,25 @@ class Reptile extends Animal {
         System.out.println("Vertebrate: " + snake.isVertebrate());
         System.out.println("Scales: " + snake.isScales());
         System.out.println("Milk: " + snake.isMilk());
+    }
+}
+
+class Lizard extends Reptile {
+    Lizard(String species, boolean living, boolean awake, boolean hungry) {
+        super("Lizard", true, true, true);
+        this.breathe("lungs");
+        this.move("walks on four legs");
+        this.poop("solid");
+        this.eat("insects");
+    }
+}
+
+class Snake extends Reptile {
+    Snake(String species, boolean living, boolean awake, boolean hungry) {
+        super("snake", true, false, false);
+        this.breathe("lungs");
+        this.move("slither");
+        this.poop("liquid");
+        this.eat("insects, rodents");
     }
 }
