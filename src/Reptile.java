@@ -2,7 +2,7 @@
  * Created by ebal8006 on 1/31/2018.
  */
 class Reptile extends Animal {
-    
+
     public Reptile(String species, boolean living, boolean awake, boolean hungry){
         super(species, living, awake, hungry);
         this.setAwake(true);
@@ -70,6 +70,9 @@ class Reptile extends Animal {
     }
 }
 
+/**
+ * makes a Lizard class to define the characteristics of a lizard
+ */
 class Lizard extends Reptile {
     Lizard(String species, boolean living, boolean awake, boolean hungry) {
         super("Lizard", true, true, true);
@@ -80,6 +83,9 @@ class Lizard extends Reptile {
     }
 }
 
+/**
+ * makes a snake class to define the characteristics of a snake
+ */
 class Snake extends Reptile {
     Snake(String species, boolean living, boolean awake, boolean hungry) {
         super("snake", true, false, false);
